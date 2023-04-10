@@ -1,45 +1,32 @@
-# Create the database model for Instagram
+# ![4Geeks Logo](http://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,16) Instagram exercise data modeling with Python
 
-**Important**: To do this activity you need to `fork` [this repo](https://github.com/breatheco-de/exercise-instagram-data-modeling) into your **Github** account and then open the forked repo on Gitpod.
+![screenshot](https://github.com/juanmism/4Geeks_DataBase_Model_Instagram/blob/master/diagram_screenshot.JPG)
 
-Inside he `src/models.py` file you will find a couple of classes describing an example database.
+✏ *Building the Entity Relationship Diagram for the Instagram exercise. Inspired in **./preview.png***.
 
-Here is a 4min video explaining what UML is: [https://www.youtube.com/watch?v=UI6lqHOVHic](https://www.youtube.com/watch?v=UI6lqHOVHic)
+## Instructions 📄
 
-Th `diagram.png` file generates a database chart based on the classes that you will be creating. Such charts in Database Management are referred to as ERDs (Entity Relatonship Diagrams). 
+* All classes are described in `src/models.py`
 
-Please watch these two short videos explaining ERDs: 
-[https://www.youtube.com/watch?v=QpdhBUYk7Kk&t=4s](https://www.youtube.com/watch?v=QpdhBUYk7Kk&t=4s)
-[https://www.youtube.com/watch?v=-CuY5ADwn24&t=738s](https://www.youtube.com/watch?v=-CuY5ADwn24&t=738s)
+## Preview 🎬
 
-You will have to create the Entity Relationship Diagram for Instagram's Database - a very similar diagram to this one:
+* You can open this repository in **Gitpod**.
+* Get inside the environment running `$ pipenv shell`
+* Install all dependencies with `$ pipenv install`
+* Generate the diagram as many times as you need: `$ python src/models.py`
+* Open the file `diagram.png` to check out the UML diagram.
+* If you receive a *pipenv* error, install it running the following command: `$ pip install pipenv`
 
-![Instagram Diagram](https://github.com/breatheco-de/exercise-instagram-data-modeling/blob/master/assets/example.png?raw=true)
-[Click to open diagram](https://app.quickdatabasediagrams.com/#/d/LxNXQZ)
+## Sources 📌
 
-> 🔥 You can use this FREE tool to practice your diagram for the first time: https://app.quickdatabasediagrams.com/#/d/
+<https://learn.breatheco.de/course/full-stack.v4/22/p/instagram-data-modeling>
 
+<https://github.com/breatheco-de/exercise-instagram-data-modeling>
 
-## 💻 Installation
+<https://docs.sqlalchemy.org/en/14/core/type_basics.html>
 
-1. Get inside the environment `$ pipenv shell`
+<https://www.youtube.com/watch?v=UI6lqHOVHic>
 
-2. Install all dependencies `$ pipenv install`
+<https://app.quickdatabasediagrams.com/>
 
-3. Generate the diagram as many times as you need `$ python3 src/models.py`
-
-4. Open the file `diagram.png` to check out your ERD diagram!
-
-
-## 📝Instructions
-
-Your job is to update the `src/models.py` file with the code needed to replicate Instagram's data model.
-
-The project is using the SQLAlchemy Python library to generate the database.
-
-- What tables do you think instagram might have on its database: E.g: Post, User, etc.?
-- What properties should go inside the user? or inside the Post table?
-- Please add at least 4 models with all of its properties.
-- Refresh the `diagram.png` file at the end by running `$ python3 src/models.py` on the console.
-
-
+💻 _Juan Miguel Sáenz Martel_ (<https://github.com/juanmism>)
